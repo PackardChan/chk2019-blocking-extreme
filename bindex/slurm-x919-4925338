@@ -1,0 +1,1447 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+finish load
+Elapsed time is 40.613173 seconds.
+finish sks20
+Elapsed time is 69.267181 seconds.
+finish sks30
+Elapsed time is 73.640986 seconds.
+finish sks40
+Elapsed time is 79.068450 seconds.
+finish sks
+Elapsed time is 81.197418 seconds.
+finish collect
+Elapsed time is 81.927293 seconds.
+finish xyn
+Elapsed time is 82.487357 seconds.
+jjaNH:2.97 djfNH:4.20
+finish quantile
+Elapsed time is 83.231621 seconds.
+finish t4
+Elapsed time is 83.926521 seconds.
+finish lsm
+Elapsed time is 83.995411 seconds.
+
+ans =
+
+    '0K=50.6%=0.0std, final occurrence = 1.3%'
+
+finish label
+Elapsed time is 105.691353 seconds.
+a5
+Elapsed time is 112.033432 seconds.
+before loop
+Elapsed time is 119.966139 seconds.
+b5
+Elapsed time is 134.177387 seconds.
+before loop
+Elapsed time is 162.993143 seconds.
+finish attr
+Elapsed time is 163.502780 seconds.
+finish save
+Elapsed time is 189.240972 seconds.
+rm: cannot remove ‘../index_wise/allx919_ERA-interim_19790101-20171231.ps’: No such file or directory
+Elapsed time is 227.253926 seconds.
+jja: +1.000 +1.000 +1.000 +1.000
+autocorr H:-0.048 Pl:-0.048 P:-0.048 tstar/t:0.995 0.995 kurt:6.3
+autocorr H:-0.013 Pl:-0.013 P:-0.013 tstar/t:1.000 1.000 kurt:9.2
+ln: failed to create symbolic link ‘../index_wise/BlockFreq_x919x919_ERA-interim_19790101-20171231.mat’: File exists
+finish preproc
+Elapsed time is 13.559586 seconds.
+jjaNH:70.85 jjaLand:63.96 ratio:1.107740
+rm -f e.bindex.o ccl.o anomaly.o areacalc.o spatialthresh.o overlap.o stat3.o fdist.o durthresh.o nlabelreorder.o labelreorder.o stat4.o datetrack.o ddist.o wrap2.o GHG.o readnetcdf.o annualcycle.o
+ifort  -assume byterecl    -c -o e.bindex.o e.bindex.F
+ifort  -assume byterecl    -c -o ccl.o ccl.F
+ifort  -assume byterecl    -c -o anomaly.o anomaly.F
+ifort  -assume byterecl    -c -o areacalc.o areacalc.F
+ifort  -assume byterecl    -c -o spatialthresh.o spatialthresh.F
+ifort  -assume byterecl    -c -o overlap.o overlap.F
+ifort  -assume byterecl    -c -o stat3.o stat3.F
+ifort  -assume byterecl    -c -o fdist.o fdist.F
+ifort  -assume byterecl    -c -o durthresh.o durthresh.F
+ifort  -assume byterecl    -c -o nlabelreorder.o nlabelreorder.F
+ifort  -assume byterecl    -c -o labelreorder.o labelreorder.F
+ifort  -assume byterecl    -c -o stat4.o stat4.F
+ifort  -assume byterecl    -c -o datetrack.o datetrack.F
+ifort  -assume byterecl    -c -o ddist.o ddist.F
+ifort  -assume byterecl    -c -o wrap2.o wrap2.F
+ifort  -assume byterecl    -c -o GHG.o GHG.F
+ifort  -assume byterecl    -c -o readnetcdf.o readnetcdf.F
+ifort  -assume byterecl    -c -o annualcycle.o annualcycle.F
+ifort  -o e.bindex.exe -assume byterecl  e.bindex.o ccl.o anomaly.o areacalc.o spatialthresh.o overlap.o stat3.o fdist.o durthresh.o nlabelreorder.o labelreorder.o stat4.o datetrack.o ddist.o wrap2.o GHG.o readnetcdf.o annualcycle.o -I/n/helmod/apps/centos7/MPI/intel/17.0.4-fasrc01/impi/2017.2.174-fasrc01/netcdf/4.1.3-fasrc02/include -L/n/helmod/apps/centos7/MPI/intel/17.0.4-fasrc01/impi/2017.2.174-fasrc01/netcdf/4.1.3-fasrc02/lib -lnetcdff
+ 
+ File=          21
+ Number of anomalies satisfying (A),(S),(O) & GHG =       11578
+ Total number of blocks =         1422
+ Finding distributions...
+ DONE
+ 
+rm -f e.bindex.o ccl.o anomaly.o areacalc.o spatialthresh.o overlap.o stat3.o fdist.o durthresh.o nlabelreorder.o labelreorder.o stat4.o datetrack.o ddist.o wrap2.o GHG.o readnetcdf.o annualcycle.o
+finish read
+Elapsed time is 43.823614 seconds.
+jja: D=5 A=1.5 S=2.5e+06 R=1 +0.149 +0.326 +0.159 +0.322
+Elapsed time is 49.811847 seconds.
+finish label
+Elapsed time is 83.032480 seconds.
+a5
+Elapsed time is 85.755559 seconds.
+before loop
+Elapsed time is 86.416286 seconds.
+b5
+Elapsed time is 91.073876 seconds.
+before loop
+Elapsed time is 93.925187 seconds.
+finish attr
+Elapsed time is 94.275703 seconds.
+     0      3185 
+     1       619 
+     2        27 
+     4         1 
+rm: cannot remove ‘../index_wise/allx9190a13_ERA-interim_19790101-20171231.ps’: No such file or directory
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_d2d_pchan06 (line 1406)
+  In xtrm_reanalysis_pchan09 (line 1438)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_d2d_pchan06 (line 1956)
+  In xtrm_reanalysis_pchan09 (line 1438)] 
+djf: +0.445 +0.442
+Elapsed time is 152.473903 seconds.
+finish preproc
+Elapsed time is 8.436950 seconds.
+jjaNH:70.85 jjaSH:70.85 djfNH:118.81 djfSH:118.81
+jja: D=1 prst=0.00 A=0.0 R=0 +0.397 +0.541 +0.374 +0.567
+Elapsed time is 21.581296 seconds.
+finish preproc
+Elapsed time is 8.542293 seconds.
+jjaNH:70.85 jjaSH:70.85 djfNH:118.81 djfSH:118.81
+jja: D=1 prst=0.00 A=0.5 R=0 +0.426 +0.605 +0.370 +0.592
+Elapsed time is 21.379788 seconds.
+finish preproc
+Elapsed time is 8.445866 seconds.
+jjaNH:70.85 jjaSH:70.85 djfNH:118.81 djfSH:118.81
+jja: D=1 prst=0.00 A=1.0 R=0 +0.425 +0.647 +0.346 +0.596
+Elapsed time is 21.565938 seconds.
+finish preproc
+Elapsed time is 8.693509 seconds.
+jjaNH:70.85 jjaSH:70.85 djfNH:118.81 djfSH:118.81
+jja: D=1 prst=0.00 A=1.5 R=0 +0.372 +0.623 +0.287 +0.553
+Elapsed time is 23.023673 seconds.
+finish preproc
+Elapsed time is 8.598758 seconds.
+jjaNH:70.85 jjaSH:70.85 djfNH:118.81 djfSH:118.81
+jja: D=1 prst=0.00 A=2.0 R=0 +0.261 +0.531 +0.205 +0.425
+Elapsed time is 22.742167 seconds.
+finish preproc
+Elapsed time is 8.706933 seconds.
+jjaNH:70.85 jjaSH:70.85 djfNH:118.81 djfSH:118.81
+jja: D=1 prst=0.00 A=2.5 R=0 +0.174 +0.340 +0.170 +0.239
+Elapsed time is 22.730506 seconds.
+finish preproc
+Elapsed time is 8.462523 seconds.
+jjaNH:70.85 jjaSH:70.85 djfNH:118.81 djfSH:118.81
+jja: D=1 prst=0.00 A=3.0 R=0 +0.196 +0.179 +0.188 +0.165
+Elapsed time is 21.989425 seconds.
+finish preproc
+Elapsed time is 8.593865 seconds.
+jjaNH:70.85 jjaSH:70.85 djfNH:118.81 djfSH:118.81
+jja: D=1 prst=0.00 A=3.5 R=0 +0.173 +0.125 +0.173 +0.199
+Elapsed time is 22.196665 seconds.
+finish preproc
+Elapsed time is 8.612549 seconds.
+jjaNH:70.85 jjaSH:70.85 djfNH:118.81 djfSH:118.81
+jja: D=1 prst=0.00 A=4.0 R=0 +0.180 +0.215 +0.168 +0.231
+Elapsed time is 22.197785 seconds.
+finish load
+Elapsed time is 3.864637 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 24.635321 seconds.
+jjaNH:105.76 jjaSH:105.76 djfNH:177.05 djfSH:177.05
+jja: D=1 prst=0.50 A=0.0 R=0 +0.390 +0.537 +0.363 +0.562
+Elapsed time is 38.785469 seconds.
+finish load
+Elapsed time is 3.492558 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 25.150799 seconds.
+jjaNH:105.76 jjaSH:105.76 djfNH:177.05 djfSH:177.05
+jja: D=1 prst=0.50 A=0.5 R=0 +0.418 +0.587 +0.362 +0.593
+Elapsed time is 39.265540 seconds.
+finish load
+Elapsed time is 3.677567 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 22.500331 seconds.
+jjaNH:105.76 jjaSH:105.76 djfNH:177.05 djfSH:177.05
+jja: D=1 prst=0.50 A=1.0 R=0 +0.427 +0.649 +0.344 +0.615
+Elapsed time is 36.221626 seconds.
+finish load
+Elapsed time is 3.524719 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 22.968319 seconds.
+jjaNH:105.76 jjaSH:105.76 djfNH:177.05 djfSH:177.05
+jja: D=1 prst=0.50 A=1.5 R=0 +0.377 +0.646 +0.285 +0.589
+Elapsed time is 35.837889 seconds.
+finish load
+Elapsed time is 3.090070 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 21.296761 seconds.
+jjaNH:105.76 jjaSH:105.76 djfNH:177.05 djfSH:177.05
+jja: D=1 prst=0.50 A=2.0 R=0 +0.265 +0.579 +0.206 +0.493
+Elapsed time is 34.055950 seconds.
+finish load
+Elapsed time is 3.115286 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 21.396041 seconds.
+jjaNH:105.76 jjaSH:105.76 djfNH:177.05 djfSH:177.05
+jja: D=1 prst=0.50 A=2.5 R=0 +0.183 +0.417 +0.179 +0.339
+Elapsed time is 34.364587 seconds.
+finish load
+Elapsed time is 3.014764 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.144095 seconds.
+jjaNH:105.76 jjaSH:105.76 djfNH:177.05 djfSH:177.05
+jja: D=1 prst=0.50 A=3.0 R=0 +0.210 +0.291 +0.213 +0.253
+Elapsed time is 32.426520 seconds.
+finish load
+Elapsed time is 3.099347 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.882269 seconds.
+jjaNH:105.76 jjaSH:105.76 djfNH:177.05 djfSH:177.05
+jja: D=1 prst=0.50 A=3.5 R=0 +0.246 +0.183 +0.175 +0.204
+Elapsed time is 32.781151 seconds.
+finish load
+Elapsed time is 3.006057 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 21.044055 seconds.
+jjaNH:105.76 jjaSH:105.76 djfNH:177.05 djfSH:177.05
+jja: D=1 prst=0.50 A=4.0 R=0 +0.057 +0.159 +0.015 +0.143
+Elapsed time is 35.026168 seconds.
+finish load
+Elapsed time is 3.457528 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 22.948676 seconds.
+jjaNH:132.97 jjaSH:132.97 djfNH:226.77 djfSH:226.77
+jja: D=1 prst=0.75 A=0.0 R=0 +0.388 +0.529 +0.354 +0.550
+Elapsed time is 36.102516 seconds.
+finish load
+Elapsed time is 3.139920 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.483307 seconds.
+jjaNH:132.97 jjaSH:132.97 djfNH:226.77 djfSH:226.77
+jja: D=1 prst=0.75 A=0.5 R=0 +0.398 +0.566 +0.355 +0.584
+Elapsed time is 32.899252 seconds.
+finish load
+Elapsed time is 3.041694 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.784292 seconds.
+jjaNH:132.97 jjaSH:132.97 djfNH:226.77 djfSH:226.77
+jja: D=1 prst=0.75 A=1.0 R=0 +0.412 +0.614 +0.345 +0.615
+Elapsed time is 33.341529 seconds.
+finish load
+Elapsed time is 3.118912 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.975561 seconds.
+jjaNH:132.97 jjaSH:132.97 djfNH:226.77 djfSH:226.77
+jja: D=1 prst=0.75 A=1.5 R=0 +0.371 +0.633 +0.306 +0.621
+Elapsed time is 33.702221 seconds.
+finish load
+Elapsed time is 3.204509 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 21.075745 seconds.
+jjaNH:132.97 jjaSH:132.97 djfNH:226.77 djfSH:226.77
+jja: D=1 prst=0.75 A=2.0 R=0 +0.296 +0.617 +0.249 +0.587
+Elapsed time is 33.400258 seconds.
+finish load
+Elapsed time is 3.179750 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.634112 seconds.
+jjaNH:132.97 jjaSH:132.97 djfNH:226.77 djfSH:226.77
+jja: D=1 prst=0.75 A=2.5 R=0 +0.262 +0.575 +0.188 +0.514
+Elapsed time is 32.777354 seconds.
+finish load
+Elapsed time is 3.029715 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.320539 seconds.
+jjaNH:132.97 jjaSH:132.97 djfNH:226.77 djfSH:226.77
+jja: D=1 prst=0.75 A=3.0 R=0 +0.171 +0.373 +0.118 +0.266
+Elapsed time is 32.844875 seconds.
+finish load
+Elapsed time is 3.230575 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 22.164181 seconds.
+jjaNH:132.97 jjaSH:132.97 djfNH:226.77 djfSH:226.77
+jja: D=1 prst=0.75 A=3.5 R=0 +0.174 +0.231 +0.133 +0.197
+Elapsed time is 35.759923 seconds.
+finish load
+Elapsed time is 3.723070 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 22.863829 seconds.
+jjaNH:132.97 jjaSH:132.97 djfNH:226.77 djfSH:226.77
+jja: D=1 prst=0.75 A=4.0 R=0 +0.167 +0.107 +0.069 +0.036
+Elapsed time is 36.672661 seconds.
+finish load
+Elapsed time is 3.479280 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 22.509630 seconds.
+jjaNH:154.17 jjaSH:154.17 djfNH:268.98 djfSH:268.98
+jja: D=1 prst=0.88 A=0.0 R=0 +0.379 +0.522 +0.351 +0.536
+Elapsed time is 36.079609 seconds.
+finish load
+Elapsed time is 3.302931 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 21.194097 seconds.
+jjaNH:154.17 jjaSH:154.17 djfNH:268.98 djfSH:268.98
+jja: D=1 prst=0.88 A=0.5 R=0 +0.401 +0.563 +0.358 +0.568
+Elapsed time is 34.273116 seconds.
+finish load
+Elapsed time is 3.118258 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.467508 seconds.
+jjaNH:154.17 jjaSH:154.17 djfNH:268.98 djfSH:268.98
+jja: D=1 prst=0.88 A=1.0 R=0 +0.386 +0.578 +0.358 +0.594
+Elapsed time is 33.408064 seconds.
+finish load
+Elapsed time is 3.474255 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 21.191203 seconds.
+jjaNH:154.17 jjaSH:154.17 djfNH:268.98 djfSH:268.98
+jja: D=1 prst=0.88 A=1.5 R=0 +0.370 +0.584 +0.362 +0.638
+Elapsed time is 33.446138 seconds.
+finish load
+Elapsed time is 3.077956 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.567036 seconds.
+jjaNH:154.17 jjaSH:154.17 djfNH:268.98 djfSH:268.98
+jja: D=1 prst=0.88 A=2.0 R=0 +0.376 +0.633 +0.346 +0.684
+Elapsed time is 32.766749 seconds.
+finish load
+Elapsed time is 3.052306 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 19.265000 seconds.
+jjaNH:154.17 jjaSH:154.17 djfNH:268.98 djfSH:268.98
+jja: D=1 prst=0.88 A=2.5 R=0 +0.390 +0.690 +0.273 +0.713
+Elapsed time is 31.289741 seconds.
+finish load
+Elapsed time is 2.996000 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.669431 seconds.
+jjaNH:154.17 jjaSH:154.17 djfNH:268.98 djfSH:268.98
+jja: D=1 prst=0.88 A=3.0 R=0 +0.282 +0.690 +0.126 +0.574
+Elapsed time is 34.031291 seconds.
+finish load
+Elapsed time is 3.665918 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 24.602038 seconds.
+jjaNH:154.17 jjaSH:154.17 djfNH:268.98 djfSH:268.98
+jja: D=1 prst=0.88 A=3.5 R=0 +0.135 +0.326 +0.035 +0.048
+Elapsed time is 39.258329 seconds.
+finish load
+Elapsed time is 3.324900 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.882242 seconds.
+jjaNH:154.17 jjaSH:154.17 djfNH:268.98 djfSH:268.98
+jja: D=1 prst=0.88 A=4.0 R=0 +0.080 +0.003 -0.004 -0.031
+Elapsed time is 33.822847 seconds.
+finish load
+Elapsed time is 3.171001 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 19.946813 seconds.
+jjaNH:169.31 jjaSH:169.31 djfNH:298.34 djfSH:298.34
+jja: D=1 prst=0.94 A=0.0 R=0 +0.371 +0.510 +0.348 +0.519
+Elapsed time is 31.955875 seconds.
+finish load
+Elapsed time is 3.015151 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 19.908004 seconds.
+jjaNH:169.31 jjaSH:169.31 djfNH:298.34 djfSH:298.34
+jja: D=1 prst=0.94 A=0.5 R=0 +0.398 +0.554 +0.355 +0.544
+Elapsed time is 32.113959 seconds.
+finish load
+Elapsed time is 3.122299 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 22.011528 seconds.
+jjaNH:169.31 jjaSH:169.31 djfNH:298.34 djfSH:298.34
+jja: D=1 prst=0.94 A=1.0 R=0 +0.384 +0.556 +0.358 +0.569
+Elapsed time is 35.189837 seconds.
+finish load
+Elapsed time is 3.111184 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.805771 seconds.
+jjaNH:169.31 jjaSH:169.31 djfNH:298.34 djfSH:298.34
+jja: D=1 prst=0.94 A=1.5 R=0 +0.357 +0.554 +0.373 +0.621
+Elapsed time is 34.008459 seconds.
+finish load
+Elapsed time is 3.547759 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 22.990081 seconds.
+jjaNH:169.31 jjaSH:169.31 djfNH:298.34 djfSH:298.34
+jja: D=1 prst=0.94 A=2.0 R=0 +0.395 +0.616 +0.391 +0.710
+Elapsed time is 36.243674 seconds.
+finish load
+Elapsed time is 3.280702 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 21.621998 seconds.
+jjaNH:169.31 jjaSH:169.31 djfNH:298.34 djfSH:298.34
+jja: D=1 prst=0.94 A=2.5 R=0 +0.427 +0.709 +0.350 +0.771
+Elapsed time is 35.221399 seconds.
+finish load
+Elapsed time is 3.775375 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 24.308407 seconds.
+jjaNH:169.31 jjaSH:169.31 djfNH:298.34 djfSH:298.34
+jja: D=1 prst=0.94 A=3.0 R=0 +0.405 +0.729 +0.239 +0.730
+Elapsed time is 38.578621 seconds.
+finish load
+Elapsed time is 3.427958 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 21.391010 seconds.
+jjaNH:169.31 jjaSH:169.31 djfNH:298.34 djfSH:298.34
+jja: D=1 prst=0.94 A=3.5 R=0 +0.297 +0.625 +0.082 +0.615
+Elapsed time is 33.922794 seconds.
+finish load
+Elapsed time is 3.093750 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 21.092625 seconds.
+jjaNH:169.31 jjaSH:169.31 djfNH:298.34 djfSH:298.34
+jja: D=1 prst=0.94 A=4.0 R=0 +0.057 +0.388 -0.028 +0.218
+Elapsed time is 33.077406 seconds.
+finish load
+Elapsed time is 3.032400 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 19.816755 seconds.
+jjaNH:182.45 jjaSH:182.45 djfNH:315.09 djfSH:315.09
+jja: D=1 prst=0.97 A=0.0 R=0 +0.381 +0.511 +0.349 +0.501
+Elapsed time is 32.019905 seconds.
+finish load
+Elapsed time is 3.026105 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.894617 seconds.
+jjaNH:182.45 jjaSH:182.45 djfNH:315.09 djfSH:315.09
+jja: D=1 prst=0.97 A=0.5 R=0 +0.398 +0.547 +0.350 +0.520
+Elapsed time is 33.908950 seconds.
+finish load
+Elapsed time is 3.239665 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.228087 seconds.
+jjaNH:182.45 jjaSH:182.45 djfNH:315.09 djfSH:315.09
+jja: D=1 prst=0.97 A=1.0 R=0 +0.391 +0.556 +0.350 +0.546
+Elapsed time is 32.930143 seconds.
+finish load
+Elapsed time is 3.089095 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 21.685932 seconds.
+jjaNH:182.45 jjaSH:182.45 djfNH:315.09 djfSH:315.09
+jja: D=1 prst=0.97 A=1.5 R=0 +0.353 +0.548 +0.364 +0.594
+Elapsed time is 35.882532 seconds.
+finish load
+Elapsed time is 3.301476 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 21.111628 seconds.
+jjaNH:182.45 jjaSH:182.45 djfNH:315.09 djfSH:315.09
+jja: D=1 prst=0.97 A=2.0 R=0 +0.386 +0.607 +0.419 +0.677
+Elapsed time is 34.338256 seconds.
+finish load
+Elapsed time is 3.402508 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 22.161755 seconds.
+jjaNH:182.45 jjaSH:182.45 djfNH:315.09 djfSH:315.09
+jja: D=1 prst=0.97 A=2.5 R=0 +0.481 +0.682 +0.423 +0.750
+Elapsed time is 34.717647 seconds.
+finish load
+Elapsed time is 3.134247 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.555838 seconds.
+jjaNH:182.45 jjaSH:182.45 djfNH:315.09 djfSH:315.09
+jja: D=1 prst=0.97 A=3.0 R=0 +0.481 +0.732 +0.317 +0.770
+Elapsed time is 33.282129 seconds.
+finish load
+Elapsed time is 3.314789 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.378243 seconds.
+jjaNH:182.45 jjaSH:182.45 djfNH:315.09 djfSH:315.09
+jja: D=1 prst=0.97 A=3.5 R=0 +0.351 +0.700 +0.170 +0.742
+Elapsed time is 32.753039 seconds.
+finish load
+Elapsed time is 3.088163 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 19.519114 seconds.
+jjaNH:182.45 jjaSH:182.45 djfNH:315.09 djfSH:315.09
+jja: D=1 prst=0.97 A=4.0 R=0 +0.147 +0.575 +0.008 +0.678
+Elapsed time is 31.535029 seconds.
+finish load
+Elapsed time is 3.077365 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 19.673585 seconds.
+jjaNH:193.25 jjaSH:193.25 djfNH:317.85 djfSH:317.85
+jja: D=1 prst=0.98 A=0.0 R=0 +0.384 +0.498 +0.359 +0.482
+Elapsed time is 31.866635 seconds.
+finish load
+Elapsed time is 3.081923 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.087201 seconds.
+jjaNH:193.25 jjaSH:193.25 djfNH:317.85 djfSH:317.85
+jja: D=1 prst=0.98 A=0.5 R=0 +0.400 +0.528 +0.361 +0.497
+Elapsed time is 32.544157 seconds.
+finish load
+Elapsed time is 3.166058 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.917422 seconds.
+jjaNH:193.25 jjaSH:193.25 djfNH:317.85 djfSH:317.85
+jja: D=1 prst=0.98 A=1.0 R=0 +0.400 +0.553 +0.362 +0.515
+Elapsed time is 33.354951 seconds.
+finish load
+Elapsed time is 3.230932 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.205265 seconds.
+jjaNH:193.25 jjaSH:193.25 djfNH:317.85 djfSH:317.85
+jja: D=1 prst=0.98 A=1.5 R=0 +0.373 +0.537 +0.380 +0.549
+Elapsed time is 32.347242 seconds.
+finish load
+Elapsed time is 2.988791 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.816087 seconds.
+jjaNH:193.25 jjaSH:193.25 djfNH:317.85 djfSH:317.85
+jja: D=1 prst=0.98 A=2.0 R=0 +0.412 +0.593 +0.433 +0.593
+Elapsed time is 34.097655 seconds.
+finish load
+Elapsed time is 3.377412 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 22.294183 seconds.
+jjaNH:193.25 jjaSH:193.25 djfNH:317.85 djfSH:317.85
+jja: D=1 prst=0.98 A=2.5 R=0 +0.482 +0.616 +0.457 +0.606
+Elapsed time is 36.025071 seconds.
+finish load
+Elapsed time is 3.454329 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 22.727990 seconds.
+jjaNH:193.25 jjaSH:193.25 djfNH:317.85 djfSH:317.85
+jja: D=1 prst=0.98 A=3.0 R=0 +0.500 +0.596 +0.407 +0.644
+Elapsed time is 36.722949 seconds.
+finish load
+Elapsed time is 4.090933 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 24.004674 seconds.
+jjaNH:193.25 jjaSH:193.25 djfNH:317.85 djfSH:317.85
+jja: D=1 prst=0.98 A=3.5 R=0 +0.393 +0.656 +0.305 +0.712
+Elapsed time is 37.396708 seconds.
+finish load
+Elapsed time is 3.378301 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 21.982199 seconds.
+jjaNH:193.25 jjaSH:193.25 djfNH:317.85 djfSH:317.85
+jja: D=1 prst=0.98 A=4.0 R=0 +0.154 +0.566 +0.018 +0.676
+Elapsed time is 35.427282 seconds.
+
+ans =
+
+    'jja: All >40N prst=0.98 A=2.5 +0.838'
+
+
+ans =
+
+    'jja: Land >40N prst=0.97 A=3.0 +0.556'
+
+
+ans =
+
+    'jja: Eurasia >40N prst=0.94 A=3.0 +0.489'
+
+
+ans =
+
+    'jja: N. America >40N prst=0.00 A=2.0 +0.453'
+
+finish load
+Elapsed time is 3.038043 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 20.296234 seconds.
+jjaNH:182.45 jjaSH:182.45 djfNH:315.09 djfSH:315.09
+jja: D=1 prst=0.97 A=3.0 R=0 +0.481 +0.732 +0.317 +0.770
+Elapsed time is 33.279842 seconds.
+finish label
+Elapsed time is 47.874822 seconds.
+a5
+Elapsed time is 50.810438 seconds.
+before loop
+Elapsed time is 51.370647 seconds.
+b5
+Elapsed time is 55.729024 seconds.
+before loop
+Elapsed time is 56.736525 seconds.
+finish attr
+Elapsed time is 56.801465 seconds.
+     0      3812 
+     1        20 
+rm: cannot remove ‘../index_wise/allx9192a73_ERA-interim_19790101-20171231.ps’: No such file or directory
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_anomaly_pchan01 (line 1404)
+  In xtrm_reanalysis_pchan09 (line 1833)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_anomaly_pchan01 (line 1988)
+  In xtrm_reanalysis_pchan09 (line 1833)] 
+djf: +0.208 +0.309
+Elapsed time is 97.756671 seconds.
+
+ans =
+
+    'jja: All >40N prst=0.98 A=2.5 +0.831'
+
+
+ans =
+
+    'jja: Land >40N prst=0.95 A=3.0 +0.545'
+
+
+ans =
+
+    'jja: Eurasia >40N prst=0.94 A=3.0 +0.484'
+
+
+ans =
+
+    'jja: N. America >40N prst=0.00 A=1.5 +0.557'
+
+finish load
+Elapsed time is 3.419640 seconds.
+no Var_*mat saved
+finish preproc
+Elapsed time is 22.167928 seconds.
+jjaNH:172.77 jjaSH:172.77 djfNH:304.11 djfSH:304.11
+jja: D=1 prst=0.95 A=3.0 R=1 +0.467 +0.737 +0.316 +0.749
+Elapsed time is 38.698338 seconds.
+finish label
+Elapsed time is 55.782127 seconds.
+a5
+Elapsed time is 58.724274 seconds.
+before loop
+Elapsed time is 59.315958 seconds.
+b5
+Elapsed time is 63.664107 seconds.
+before loop
+Elapsed time is 64.720528 seconds.
+finish attr
+Elapsed time is 64.789374 seconds.
+     0      3810 
+     1        22 
+rm: cannot remove ‘../index_wise/allx9192a74_ERA-interim_19790101-20171231.ps’: No such file or directory
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_anomaly_pchan01 (line 1404)
+  In xtrm_reanalysis_pchan09 (line 1934)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_anomaly_pchan01 (line 1988)
+  In xtrm_reanalysis_pchan09 (line 1934)] 
+djf: +0.207 +0.246
+Elapsed time is 104.429813 seconds.
+
+ans =
+
+    'jja: All >40N D=1 A=1.0 +0.892'
+
+
+ans =
+
+    'jja: Land >40N D=5 A=1.0 +0.629'
+
+
+ans =
+
+    'jja: Eurasia >40N D=18 A=1.0 +0.652'
+
+
+ans =
+
+    'jja: N. America >40N D=1 A=2.0 +0.453'
+
+finish preproc
+Elapsed time is 8.710059 seconds.
+jjaNH:70.85 jjaSH:70.85 djfNH:118.81 djfSH:118.81
+jja: D=5 prst=0.00 A=1.0 R=0 +0.396 +0.670 +0.322 +0.622
+Elapsed time is 21.665889 seconds.
+finish label
+Elapsed time is 90.355255 seconds.
+a5
+Elapsed time is 95.378538 seconds.
+before loop
+Elapsed time is 100.483651 seconds.
+b5
+Elapsed time is 107.683577 seconds.
+before loop
+Elapsed time is 115.033205 seconds.
+finish attr
+Elapsed time is 116.290220 seconds.
+     0      3291 
+     1       526 
+     2        12 
+     3         3 
+rm: cannot remove ‘../index_wise/allx9192a75_ERA-interim_19790101-20171231.ps’: No such file or directory
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_anomaly_pchan01 (line 1404)
+  In xtrm_reanalysis_pchan09 (line 2043)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_anomaly_pchan01 (line 1988)
+  In xtrm_reanalysis_pchan09 (line 2043)] 
+djf: +0.197 +0.382
+Elapsed time is 218.577729 seconds.
+
+ans =
+
+    'jja: All >40N D=3 A=1.0 +0.904'
+
+
+ans =
+
+    'jja: Land >40N D=5 A=1.0 +0.594'
+
+
+ans =
+
+    'jja: Eurasia >40N D=18 A=1.0 +0.652'
+
+
+ans =
+
+    'jja: N. America >40N D=1 A=1.5 +0.557'
+
+finish preproc
+Elapsed time is 8.461663 seconds.
+jjaNH:70.85 jjaSH:70.85 djfNH:118.81 djfSH:118.81
+jja: D=5 prst=0.00 A=1.0 R=1 +0.395 +0.695 +0.321 +0.645
+Elapsed time is 24.816186 seconds.
+finish label
+Elapsed time is 89.831344 seconds.
+a5
+Elapsed time is 94.976201 seconds.
+before loop
+Elapsed time is 100.428716 seconds.
+b5
+Elapsed time is 108.053982 seconds.
+before loop
+Elapsed time is 115.536573 seconds.
+finish attr
+Elapsed time is 116.493989 seconds.
+     0      3359 
+     1       457 
+     2        12 
+     3         4 
+rm: cannot remove ‘../index_wise/allx9192a76_ERA-interim_19790101-20171231.ps’: No such file or directory
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_anomaly_pchan01 (line 1404)
+  In xtrm_reanalysis_pchan09 (line 2143)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_anomaly_pchan01 (line 1988)
+  In xtrm_reanalysis_pchan09 (line 2143)] 
+djf: +0.253 +0.425
+Elapsed time is 213.221694 seconds.
+
+ans =
+
+    'jja: All >40N D=5 S=1e+06 A=1.0 +0.78'
+
+
+ans =
+
+    'jja: Land >40N D=5 S=1e+06 A=1.0 +0.551'
+
+
+ans =
+
+    'jja: Eurasia >40N D=1 S=1 A=1.0 +0.728'
+
+
+ans =
+
+    'jja: N. America >40N D=1 S=1 A=1.5 +0.436'
+
+finish preproc
+Elapsed time is 8.416837 seconds.
+jjaNH:70.85 jjaLand:63.96 ratio:1.107740
+[Warning: Directory already exists.] 
+[> In BlockStat_d2d_pchan06 (line 853)
+  In xtrm_reanalysis_pchan09 (line 2400)] 
+rm -f e.bindex.o ccl.o anomaly.o areacalc.o spatialthresh.o overlap.o stat3.o fdist.o durthresh.o nlabelreorder.o labelreorder.o stat4.o datetrack.o ddist.o wrap2.o GHG.o readnetcdf.o annualcycle.o
+ifort  -assume byterecl    -c -o e.bindex.o e.bindex.F
+ifort  -assume byterecl    -c -o ccl.o ccl.F
+ifort  -assume byterecl    -c -o anomaly.o anomaly.F
+ifort  -assume byterecl    -c -o areacalc.o areacalc.F
+ifort  -assume byterecl    -c -o spatialthresh.o spatialthresh.F
+ifort  -assume byterecl    -c -o overlap.o overlap.F
+ifort  -assume byterecl    -c -o stat3.o stat3.F
+ifort  -assume byterecl    -c -o fdist.o fdist.F
+ifort  -assume byterecl    -c -o durthresh.o durthresh.F
+ifort  -assume byterecl    -c -o nlabelreorder.o nlabelreorder.F
+ifort  -assume byterecl    -c -o labelreorder.o labelreorder.F
+ifort  -assume byterecl    -c -o stat4.o stat4.F
+ifort  -assume byterecl    -c -o datetrack.o datetrack.F
+ifort  -assume byterecl    -c -o ddist.o ddist.F
+ifort  -assume byterecl    -c -o wrap2.o wrap2.F
+ifort  -assume byterecl    -c -o GHG.o GHG.F
+ifort  -assume byterecl    -c -o readnetcdf.o readnetcdf.F
+ifort  -assume byterecl    -c -o annualcycle.o annualcycle.F
+ifort  -o e.bindex.exe -assume byterecl  e.bindex.o ccl.o anomaly.o areacalc.o spatialthresh.o overlap.o stat3.o fdist.o durthresh.o nlabelreorder.o labelreorder.o stat4.o datetrack.o ddist.o wrap2.o GHG.o readnetcdf.o annualcycle.o -I/n/helmod/apps/centos7/MPI/intel/17.0.4-fasrc01/impi/2017.2.174-fasrc01/netcdf/4.1.3-fasrc02/include -L/n/helmod/apps/centos7/MPI/intel/17.0.4-fasrc01/impi/2017.2.174-fasrc01/netcdf/4.1.3-fasrc02/lib -lnetcdff
+ 
+ File=          21
+ Number of anomalies satisfying (A),(S),(O) & GHG =       25681
+ Total number of blocks =         2195
+ Finding distributions...
+ DONE
+ 
+rm -f e.bindex.o ccl.o anomaly.o areacalc.o spatialthresh.o overlap.o stat3.o fdist.o durthresh.o nlabelreorder.o labelreorder.o stat4.o datetrack.o ddist.o wrap2.o GHG.o readnetcdf.o annualcycle.o
+finish read
+Elapsed time is 34.694367 seconds.
+jja: D=5 A=1.0 S=1e+06 R=1 +0.561 +0.723 +0.563 +0.723
+Elapsed time is 41.462596 seconds.
+finish label
+Elapsed time is 102.364176 seconds.
+a5
+Elapsed time is 106.192919 seconds.
+before loop
+Elapsed time is 108.414613 seconds.
+b5
+Elapsed time is 113.815968 seconds.
+before loop
+Elapsed time is 116.917667 seconds.
+finish attr
+Elapsed time is 117.251080 seconds.
+     0      3066 
+     1       736 
+     2        28 
+     3         1 
+     4         1 
+rm: cannot remove ‘../index_wise/allx9190a15_ERA-interim_19790101-20171231.ps’: No such file or directory
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_d2d_pchan06 (line 1406)
+  In xtrm_reanalysis_pchan09 (line 2400)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_d2d_pchan06 (line 1956)
+  In xtrm_reanalysis_pchan09 (line 2400)] 
+djf: +0.301 +0.362
+Elapsed time is 177.905055 seconds.
+
+ans =
+
+    'jja: All >40N D=5 dphi=6 GHGNT=-20 +0.85'
+
+
+ans =
+
+    'jja: Land >40N D=1 dphi=7 GHGNT=-15 +0.714'
+
+
+ans =
+
+    'jja: Eurasia >40N D=3 dphi=7 GHGNT=-10 +0.809'
+
+
+ans =
+
+    'jja: N. America >40N D=3 dphi=5 GHGNT=-15 +0.698'
+
+finish preproc
+Elapsed time is 8.698880 seconds.
+jja: D=1 GHGNT=-15.0000 GHGST=0.0000 dphi=7 +0.439 +0.584 +0.415 +0.565
+Elapsed time is 15.929665 seconds.
+finish label
+Elapsed time is 50.451076 seconds.
+a5
+Elapsed time is 57.410668 seconds.
+before loop
+Elapsed time is 69.634467 seconds.
+b5
+Elapsed time is 81.185900 seconds.
+before loop
+Elapsed time is 96.117304 seconds.
+finish attr
+Elapsed time is 98.258421 seconds.
+     0      3518 
+     1       287 
+     2        21 
+     3         3 
+     4         2 
+     9         1 
+rm: cannot remove ‘../index_wise/allx9194a29_ERA-interim_19790101-20171231.ps’: No such file or directory
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_scherrer_pchan05 (line 950)
+  In xtrm_reanalysis_pchan09 (line 2567)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_scherrer_pchan05 (line 1524)
+  In xtrm_reanalysis_pchan09 (line 2567)] 
+djf: +0.090 +0.146
+Elapsed time is 258.740279 seconds.
+
+ans =
+
+    'jja: All >40N D=3 dphi=6 GHGNT=Inf +0.85'
+
+
+ans =
+
+    'jja: Land >40N D=3 dphi=7 GHGNT=Inf +0.719'
+
+
+ans =
+
+    'jja: Eurasia >40N D=3 dphi=7 GHGNT=Inf +0.816'
+
+
+ans =
+
+    'jja: N. America >40N D=3 dphi=5 GHGNT=Inf +0.775'
+
+finish preproc
+Elapsed time is 8.735101 seconds.
+jja: D=3 GHGNT=Inf GHGST=0.0000 dphi=7 +0.407 +0.568 +0.369 +0.535
+Elapsed time is 16.043494 seconds.
+finish label
+Elapsed time is 60.795743 seconds.
+a5
+Elapsed time is 66.887245 seconds.
+before loop
+Elapsed time is 75.829754 seconds.
+b5
+Elapsed time is 84.587284 seconds.
+before loop
+Elapsed time is 94.415585 seconds.
+finish attr
+Elapsed time is 95.642158 seconds.
+     0      3575 
+     1       244 
+     2        11 
+     3         1 
+     5         1 
+rm: cannot remove ‘../index_wise/allx9194a39_ERA-interim_19790101-20171231.ps’: No such file or directory
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_scherrer_pchan05 (line 950)
+  In xtrm_reanalysis_pchan09 (line 2619)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_scherrer_pchan05 (line 1524)
+  In xtrm_reanalysis_pchan09 (line 2619)] 
+djf: +0.188 +0.273
+Elapsed time is 213.491266 seconds.
+
+ans =
+
+    'jja: All >40N D=5 dphi=3 +0.883'
+
+
+ans =
+
+    'jja: Land >40N D=5 dphi=3 +0.785'
+
+
+ans =
+
+    'jja: Eurasia >40N D=5 dphi=5 +0.841'
+
+
+ans =
+
+    'jja: N. America >40N D=5 dphi=1 +0.729'
+
+finish load
+Elapsed time is 8.316407 seconds.
+Elapsed time is 156.640816 seconds.
+jja: D=5 dphi=3 +0.408 +0.533 +0.289 +0.388
+Elapsed time is 160.681688 seconds.
+finish label
+Elapsed time is 244.403797 seconds.
+a5
+Elapsed time is 250.615764 seconds.
+before loop
+Elapsed time is 258.661746 seconds.
+b5
+Elapsed time is 268.859555 seconds.
+before loop
+Elapsed time is 279.712668 seconds.
+finish attr
+Elapsed time is 281.219965 seconds.
+     0      3438 
+     1       356 
+     2        31 
+     3         4 
+     4         2 
+     6         1 
+rm: cannot remove ‘../index_wise/allx9198a15_ERA-interim_19790101-20171231.ps’: No such file or directory
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_m2d_pchan02 (line 873)
+  In xtrm_reanalysis_pchan09 (line 2721)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_m2d_pchan02 (line 1429)
+  In xtrm_reanalysis_pchan09 (line 2721)] 
+djf: +0.127 +0.286
+Elapsed time is 393.196877 seconds.
+
+ans =
+
+    'jja: All >40N D=1 joffset=-6 A=2e+07 +0.815'
+
+
+ans =
+
+    'jja: Land >40N D=3 joffset=-2 A=4e+07 +0.671'
+
+
+ans =
+
+    'jja: Eurasia >40N D=3 joffset=-3 A=4e+07 +0.766'
+
+
+ans =
+
+    'jja: N. America >40N D=3 joffset=-2 A=4e+07 +0.639'
+
+finish preproc
+Elapsed time is 4.275626 seconds.
+finish PER
+Elapsed time is 18.183102 seconds.
+Elapsed time is 201.841289 seconds.
+jja: D=3 joffset=-2 A=4e+07 +0.414 +0.612 +0.333 +0.527
+Elapsed time is 205.872088 seconds.
+finish label
+Elapsed time is 365.981196 seconds.
+a5
+Elapsed time is 370.053648 seconds.
+before loop
+Elapsed time is 373.442311 seconds.
+b5
+Elapsed time is 379.705886 seconds.
+before loop
+Elapsed time is 384.346936 seconds.
+finish attr
+Elapsed time is 384.907142 seconds.
+     0      2343 
+     1      1376 
+     2       103 
+     3         8 
+     4         2 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_falwa_pchan01 (line 1414)
+  In xtrm_reanalysis_pchan09 (line 2882)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_falwa_pchan01 (line 1992)
+  In xtrm_reanalysis_pchan09 (line 2882)] 
+djf: +0.219 +0.331
+Elapsed time is 451.024941 seconds.
+finish preproc
+Elapsed time is 8.291620 seconds.
+jjaNH:70.85 jjaSH:70.85 djfNH:118.81 djfSH:118.81
+jja: D=1 prst=0.00 A=0.0 R=0 +0.397 +0.541 +0.374 +0.567
+Elapsed time is 20.347206 seconds.
+finish label
+Elapsed time is 121.212879 seconds.
+a5
+Elapsed time is 124.789172 seconds.
+before loop
+Elapsed time is 125.845142 seconds.
+b5
+Elapsed time is 131.908506 seconds.
+before loop
+Elapsed time is 136.602337 seconds.
+finish attr
+Elapsed time is 136.944132 seconds.
+     0      1859 
+     1      1973 
+rm: cannot remove ‘../index_wise/allx9192a69_ERA-interim_19790101-20171231.ps’: No such file or directory
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_anomaly_pchan01 (line 1404)
+  In xtrm_reanalysis_pchan09 (line 2914)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_anomaly_pchan01 (line 1988)
+  In xtrm_reanalysis_pchan09 (line 2914)] 
+djf: -0.275 +0.074
+Elapsed time is 186.088072 seconds.
+finish preproc
+Elapsed time is 8.453140 seconds.
+jja: D=5 GHGNT=-10.0000 GHGST=0.0000 dphi=5 +0.379 +0.487 +0.343 +0.486
+Elapsed time is 15.919942 seconds.
+finish label
+Elapsed time is 41.605226 seconds.
+a5
+Elapsed time is 47.756549 seconds.
+before loop
+Elapsed time is 54.954160 seconds.
+b5
+Elapsed time is 61.880742 seconds.
+before loop
+Elapsed time is 67.786893 seconds.
+finish attr
+Elapsed time is 68.675415 seconds.
+     0      3701 
+     1       121 
+     2         9 
+     3         1 
+rm: cannot remove ‘../index_wise/allx9194a26_ERA-interim_19790101-20171231.ps’: No such file or directory
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_scherrer_pchan05 (line 950)
+  In xtrm_reanalysis_pchan09 (line 2927)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_scherrer_pchan05 (line 1524)
+  In xtrm_reanalysis_pchan09 (line 2927)] 
+djf: +0.234 +0.361
+Elapsed time is 159.184939 seconds.
+finish load
+Elapsed time is 8.373151 seconds.
+Elapsed time is 93.567859 seconds.
+jja: D=5 dphi=5 +0.342 +0.517 +0.265 +0.388
+Elapsed time is 97.675101 seconds.
+finish label
+Elapsed time is 150.313530 seconds.
+a5
+Elapsed time is 154.481468 seconds.
+before loop
+Elapsed time is 159.366265 seconds.
+b5
+Elapsed time is 165.970310 seconds.
+before loop
+Elapsed time is 172.039261 seconds.
+finish attr
+Elapsed time is 172.903716 seconds.
+     0      3546 
+     1       263 
+     2        18 
+     3         3 
+     4         1 
+     5         1 
+rm: cannot remove ‘../index_wise/allx9198a14_ERA-interim_19790101-20171231.ps’: No such file or directory
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_m2d_pchan02 (line 873)
+  In xtrm_reanalysis_pchan09 (line 2933)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_m2d_pchan02 (line 1429)
+  In xtrm_reanalysis_pchan09 (line 2933)] 
+djf: +0.292 +0.347
+Elapsed time is 263.100712 seconds.
+
+ans =
+
+    'jja: All >40N D=5 joffset=-4 A=7.2e+07 +0.92'
+
+
+ans =
+
+    'jja: Land >40N D=5 joffset=-3 A=7.2e+07 +0.853'
+
+
+ans =
+
+    'jja: Eurasia >40N D=5 joffset=-4 A=7.2e+07 +0.914'
+
+
+ans =
+
+    'jja: N. America >40N D=5 joffset=-2 A=7.2e+07 +0.797'
+
+finish preproc
+Elapsed time is 4.211856 seconds.
+finish PER
+Elapsed time is 15.504639 seconds.
+Elapsed time is 139.811731 seconds.
+jja: D=5 joffset=-3 A=7.2e+07 +0.327 +0.440 +0.337 +0.421
+Elapsed time is 143.923716 seconds.
+finish label
+Elapsed time is 248.563058 seconds.
+a5
+Elapsed time is 252.851612 seconds.
+before loop
+Elapsed time is 256.424166 seconds.
+b5
+Elapsed time is 262.817183 seconds.
+before loop
+Elapsed time is 268.314952 seconds.
+finish attr
+Elapsed time is 268.783702 seconds.
+     0      2944 
+     1       838 
+     2        43 
+     3         4 
+     4         1 
+     5         1 
+     6         1 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_falwa_pchan01 (line 1414)
+  In xtrm_reanalysis_pchan09 (line 2960)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 79)
+  In BlockStat_falwa_pchan01 (line 1992)
+  In xtrm_reanalysis_pchan09 (line 2960)] 
+djf: +0.385 +0.411
+Elapsed time is 334.614400 seconds.
+rm: cannot remove ‘panelyyyy_x919_ERA-interim_19790101-20171231.ps’: No such file or directory
+123456789101112131415161718192021222324252627282930313233343536373839123456789101112131415161718192021222324252627282930313233343536373839rm: cannot remove ‘panel_x919_ERA-interim_19790101-20171231.ps’: No such file or directory
+  Columns 1 through 7
+
+    1.0000    0.4963    0.4407    0.2184    0.1705    0.0514    0.1791
+    0.4963    1.0000    0.7969    0.6654    0.3081    0.2473    0.0088
+    0.4407    0.7969    1.0000    0.6473    0.4352    0.3624    0.1653
+    0.2184    0.6654    0.6473    1.0000    0.3619    0.3087   -0.1306
+    0.1705    0.3081    0.4352    0.3619    1.0000    0.7493    0.0696
+    0.0514    0.2473    0.3624    0.3087    0.7493    1.0000    0.1514
+    0.1791    0.0088    0.1653   -0.1306    0.0696    0.1514    1.0000
+    0.1945    0.3890    0.3225    0.1603    0.3473    0.5407    0.5378
+    0.3169    0.5313    0.5546    0.4118    0.4682    0.4605    0.3261
+    0.1718    0.4222    0.4574    0.3538    0.3608    0.4391    0.2348
+    0.4812    0.3959    0.5608    0.1494    0.4388    0.3786    0.4076
+
+  Columns 8 through 11
+
+    0.1945    0.3169    0.1718    0.4812
+    0.3890    0.5313    0.4222    0.3959
+    0.3225    0.5546    0.4574    0.5608
+    0.1603    0.4118    0.3538    0.1494
+    0.3473    0.4682    0.3608    0.4388
+    0.5407    0.4605    0.4391    0.3786
+    0.5378    0.3261    0.2348    0.4076
+    1.0000    0.5819    0.6063    0.3420
+    0.5819    1.0000    0.6787    0.4140
+    0.6063    0.6787    1.0000    0.3265
+    0.3420    0.4140    0.3265    1.0000
+
+  Columns 1 through 7
+
+    1.0000    0.4687    0.5938    0.1833    0.2986    0.2537    0.2358
+    0.4687    1.0000    0.8863    0.6715    0.5114    0.4678    0.3055
+    0.5938    0.8863    1.0000    0.6547    0.5805    0.4907    0.3636
+    0.1833    0.6715    0.6547    1.0000    0.4128    0.3124    0.0477
+    0.2986    0.5114    0.5805    0.4128    1.0000    0.7803    0.5326
+    0.2537    0.4678    0.4907    0.3124    0.7803    1.0000    0.4913
+    0.2358    0.3055    0.3636    0.0477    0.5326    0.4913    1.0000
+    0.1963    0.4783    0.4567    0.2127    0.6092    0.6514    0.6855
+    0.3494    0.6030    0.5735    0.2921    0.6743    0.6491    0.6682
+    0.2115    0.5018    0.4590    0.3066    0.5071    0.5679    0.4477
+    0.7323    0.6703    0.7233    0.3256    0.5840    0.4867    0.5327
+
+  Columns 8 through 11
+
+    0.1963    0.3494    0.2115    0.7323
+    0.4783    0.6030    0.5018    0.6703
+    0.4567    0.5735    0.4590    0.7233
+    0.2127    0.2921    0.3066    0.3256
+    0.6092    0.6743    0.5071    0.5840
+    0.6514    0.6491    0.5679    0.4867
+    0.6855    0.6682    0.4477    0.5327
+    1.0000    0.8044    0.7791    0.5168
+    0.8044    1.0000    0.7751    0.6115
+    0.7791    0.7751    1.0000    0.4400
+    0.5168    0.6115    0.4400    1.0000
+
+  Columns 1 through 7
+
+    0.5000    0.3656    0.5100    0.0689    0.2570    0.1199    0.1747
+    0.6344    0.5000    0.7453    0.0407    0.2723    0.0988    0.1855
+    0.4900    0.2547    0.5000    0.0396    0.1927    0.0685    0.1260
+    0.9311    0.9593    0.9604    0.5000    0.9346    0.7331    0.8463
+    0.7430    0.7277    0.8073    0.0654    0.5000    0.1407    0.2971
+    0.8801    0.9012    0.9315    0.2669    0.8593    0.5000    0.6562
+    0.8253    0.8145    0.8740    0.1537    0.7029    0.3438    0.5000
+    0.8042    0.8048    0.8482    0.1317    0.7371    0.3362    0.5118
+    0.6790    0.6078    0.7251    0.0439    0.3213    0.1236    0.1454
+    0.8319    0.8494    0.8683    0.1806    0.8422    0.4922    0.6646
+
+  Columns 8 through 10
+
+    0.1958    0.3210    0.1681
+    0.1952    0.3922    0.1506
+    0.1518    0.2749    0.1317
+    0.8683    0.9561    0.8194
+    0.2629    0.6787    0.1578
+    0.6638    0.8764    0.5078
+    0.4882    0.8546    0.3354
+    0.5000    0.9342    0.2665
+    0.0658    0.5000    0.0620
+    0.7335    0.9380    0.5000
+
+
+e00 =
+
+  Columns 1 through 7
+
+    0.9087    0.9204    0.7796    1.0685    0.8624    0.9129    0.8832
+
+  Columns 8 through 10
+
+    0.9239    0.8627    0.9306
+
+
+e01 =
+
+  Columns 1 through 7
+
+    0.5556    0.6288    0.5511    1.0067    0.7143    0.8569    0.7847
+
+  Columns 8 through 10
+
+    0.7882    0.6707    0.8531
+
+
+ans =
+
+  Columns 1 through 7
+
+    0.9291    0.9448    0.9539    0.4839    0.9563    0.7528    0.9051
+
+  Columns 8 through 10
+
+    0.9204    0.9770    0.8896
+
+
+ans =
+
+  Columns 1 through 7
+
+    0.9432    0.9904    0.9872    0.6873    0.9408    0.6963    0.8442
+
+  Columns 8 through 10
+
+    0.8998    0.9604    0.8658
+
+
+sigjja =
+
+    0.5000    0.0840    0.8091    0.0667
+    0.9160    0.5000    0.9311    0.4900
+    0.1909    0.0689    0.5000    0.0396
+    0.9333    0.5100    0.9604    0.5000
+
