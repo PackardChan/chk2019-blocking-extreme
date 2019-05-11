@@ -1,6 +1,8 @@
 # Blocking and Hot Extremes
 Chan, Hassanzadeh and Kuang, 2019: Evaluating Indices of Blocking Anticyclones in Terms of their Linear Relations with Surface Hot Extremes, GRL.
 
+`*.mat` and `*.dat` are hosted on [Globus shared collection "Blocking and Hot Extremes"](https://app.globus.org/file-manager?origin_id=67a4b73a-5f9e-11e9-a624-0a54e005f950&origin_path=%2F).
+
 ## Figure 1
  * bindex/xy.grl_linefit.ncl
  * bindex/scatter.nc
