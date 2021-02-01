@@ -1,32 +1,59 @@
+:bangbang:**Please instead go to https://gitlab.com/PackardChan/chk2019-blocking-extreme**
+
+------
+
+![GitHub top language](https://img.shields.io/github/languages/top/PackardChan/chk2019-blocking-extreme)
+<!-- zenodo doi
 # Blocking and Hot Extremes
-Chan, Hassanzadeh and Kuang, 2019: Evaluating Indices of Blocking Anticyclones in Terms of their Linear Relations with Surface Hot Extremes, GRL.
+-->
+Data displayed in Chan, Hassanzadeh & Kuang, 2019, GRL. [Google Scholar](https://scholar.google.com/scholar?as_q=Evaluating%20indices%20of%20blocking%20anticyclones%20in%20terms%20of%20their%20linear%20relations%20with%20surface%20hot%20extremes&num=10&btnG=Search+Scholar&as_occt=any&as_sauthors=Chan,&as_ylo=2019&as_allsubj=all&hl=en&c2coff=1)
+<!-- dash.harvard.edu
+include sample plot
+link for badges
+-->
 
-`*.mat` and `*.dat` are hosted on [Globus shared collection "Blocking and Hot Extremes"](https://app.globus.org/file-manager?origin_id=67a4b73a-5f9e-11e9-a624-0a54e005f950&origin_path=%2F).
+Citation:
 
-## Figure 1
- * bindex/xy.grl_linefit.ncl
- * bindex/scatter.nc
+Chan, P.-W., Hassanzadeh, P., & Kuang, Z. (2019). Evaluating indices of blocking anticyclones in terms of their linear relations with surface hot extremes. Geophysical Research Letters, 46(9), 4904–4912. https://doi.org/10.1029/2019GL083307
 
-## Figure 2
- * bindex/xy.tune_param.ncl
- * bindex/tune_x9190a13_ERA-interim_19790101-20171231.nc
+Contact: Please find my latest email on https://orcid.org/0000-0003-1843-5566
 
-## Figure 3
- * bindex/xtrm_reanalysis_pchan04.m
- * index_wise/BlockFreq_x919*_ERA-interim_19790101-20171231.mat
+## [Figure 1](bindex/xy.grl_linefit.pdf)
+```
+bindex/xy.grl_linefit.ncl
+bindex/scatter.nc
+```
+
+## [Figure 2](bindex/xy.tune_param.pdf)
+```
+bindex/xy.tune_param.ncl
+bindex/tune_x9190a13_ERA-interim_19790101-20171231.nc
+```
+
+## [Figure 3](bindex/fig3_x919.jpg)
+```
+bindex/xtrm_reanalysis_pchan04.m
+index_wise/BlockFreq_x919*_ERA-interim_19790101-20171231.mat
+```
 
 ## Figure S1
- * bindex/xtrm_reanalysis_pchan04.m
- * index_wise/BlockFreq_x919*_ERA-interim_19790101-20171231.mat
+```
+bindex/xtrm_reanalysis_pchan04.m
+index_wise/BlockFreq_x919*_ERA-interim_19790101-20171231.mat
+```
 
-## Figure S2
- * bindex/xy.mp.grl_pointcorr.ncl
- * bindex/pointcorr.nc
+## [Figure S2](bindex/xy.mp.grl_pointcorr.pdf)
+```
+bindex/xy.mp.grl_pointcorr.ncl
+bindex/pointcorr.nc
+```
 
-## Figure S3
- * bindex/xy.tune_param.ncl
- * bindex/tune_x9190a13_ERA-interim_19790101-20171231.nc
- * bindex/tune_x9180a13_ERA-interim_19790101-20171231.nc
+## [Figure S3](bindex/xy.tune_param.sup.pdf)
+```
+bindex/xy.tune_param.ncl
+bindex/tune_x9190a13_ERA-interim_19790101-20171231.nc
+bindex/tune_x9180a13_ERA-interim_19790101-20171231.nc
+```
 
 ## File Naming
  * 2a73: tuned DG83p
@@ -42,4 +69,3 @@ Chan, Hassanzadeh and Kuang, 2019: Evaluating Indices of Blocking Anticyclones i
  * x919: Extreme >40N
  * x918: Extreme >50N
  * Others: Not used
-
